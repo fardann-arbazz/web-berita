@@ -11,8 +11,6 @@
 
 
 <div class="container-fluid mt-3">
-
-
     <div class="col-lg-7">
         <div class="card">
             <div class="card-body">
@@ -40,7 +38,7 @@
                                     <td><?= $row->email ?></td>
                                     <td><?= $row->role ?></td>
                                     <td>
-                                        <a href="<?= base_url('user/update/' . $row->id) ?>" class="btn btn-sm btn-primary text-white">Edit Data</a>
+                                        <a href="<?= base_url('user/update/' . $row->id) ?>" class="btn btn-sm btn-primary text-white mb-1 mr-1">Edit Data</a>
                                         <button type="button" data-toggle="modal" data-target="#exampleModalCenter<?= $row->id ?>" class="btn btn-sm btn-danger text-white">Delete Data</button>
                                     </td>
                                 </tr>
